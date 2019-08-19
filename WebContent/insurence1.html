@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style>
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("images/mat.jpg");
+	font-family: sans-serif;
+	
+  background-size: cover;
+	
+}
+
+.ab
+{
+top:90%;
+left:50%;
+position:absolute;
+background:rgba(0,0,0,0.4);
+   color:#fff;
+transform: translate(-50%,-50%)	;
+box-sizing: border-box;
+padding:70px 80px;
+
+	
+}
+
+input[type=text],select{
+align:center;
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+
+}
+
+input[type=date],select{
+align:center;
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+
+}
+
+input[type=file],select{
+align:center;
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+background-color:white;
+}
+
+input[type=submit] {
+align:center;
+width:100%;
+background-color:pink;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+input[type=submit]:hover{
+
+background-color:#400040;;
+}
+
+div{
+border-radius:5px;
+background-color:#f2f2f2;
+padding:20px;
+
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body >
+
+<div class="ab">
+<form action="insurence">
+
+<h1 align="center"><U>INSURENCE  REGISTRATION</U></h1>
+<lable>OWNER NAME         :<br><input type="text" name="g"  placeholder="ENTER  OWNER NAME" required/> </lable> <br>
+<lable>INSURENCE NUMBER          :<br><input type="text" name="b" placeholder="ENTER INSURENCE NUMBER" required /> </lable> <br>
+<lable>INSURENCE TYPE:</lable>
+<select name="ty" size="1">
+<option value="FIRST PARTY">FIRST PARTY</option>
+<option value="THIRD PARTY">THIRD PARTY</option>
+</select>
+<br>
+<lable>VALID THROUGH        :<br><input type="date" name="n"  placeholder="VALID THROUGH" required/> </lable> <br>
+<lable>VEHICLE NUMBER        :<br><input type="text" name="a" placeholder="ENTER VEHICLE NUMBER" required/> </lable> <br>
+
+<br>
+<p><input type="submit" value="SUBMIT"/>  </p>
+
+</form>
+<p> <a href="reg.html"><input type="submit" value="NEXT" > </a> </p>
+<center>
+<a href="owner1.html"><font color="white">BACK</font></a> <br>  <br>
+</center>
+</div>
+
+
+</body>
+</html>

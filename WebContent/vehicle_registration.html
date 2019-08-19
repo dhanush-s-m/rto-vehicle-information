@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style>
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("images/mat.jpg");
+	font-family: sans-serif;
+	
+  background-size: cover;
+	
+}
+
+.ab
+{
+top:100%;
+left:50%;
+position:absolute;
+background:rgba(0,0,0,0.4);
+   color:#fff;
+transform: translate(-50%,-50%)	;
+box-sizing: border-box;
+padding:70px 80px;
+
+	
+}
+
+input[type=text],select{
+align:center;
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+
+}
+
+input[type=file],select{
+align:center;
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+background-color:white;
+}
+
+input[type=submit] {
+align:center;
+width:100%;
+background-color:pink;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+input[type=submit]:hover{
+
+background-color:#400040;;
+}
+
+div{
+border-radius:5px;
+background-color:#f2f2f2;
+padding:20px;
+
+}
+
+
+</style>
+<title>Insert title here</title>
+</head>
+<body >
+
+<div class="ab">
+<form action="vehicle_registration">
+
+<h1 align="center"><U>VEHICLE  REGISTRATION</U></h1>
+<lable>VEHICLE NAME           :<br><input type="text" name="n"  placeholder="ENTER  V-NAME" required/> </lable> <br>
+
+<lable>VEHICLE CATEGORY:</lable>
+<select name="a" size="1">
+<option value="BIKE">BIKE</option>
+<option value="CAR">CAR</option>
+<option value="JEEP">JEEP</option>
+<option value="LORRY">LORRY</option>
+</select>
+<br>
+<lable>VEHICLE NUMBER          :<br><input type="text" name="nb"  placeholder="ENTER  V-NUMBER" required/> </lable> <br>
+<lable>COMPANY NAME          :<br><input type="text" name="b" placeholder="ENTER COMPANY NAME" required/> </lable> <br>
+<lable>COLOUR          :<br><input type="text" name="c" placeholder="ENTER  V-COLOUR" required/> </lable> <br>
+<lable>CHASSIS NUMBER         :<br><input type="text" name="d" placeholder="ENTER CHASSIS NUMBER" required/> </lable> <br>
+<lable>FUEL TYPE:</lable>
+<select name="type" size="1" required>
+<option value="PETROL">Petrol</option>
+<option value="DIESEL">Diesel</option>
+</select>
+<br>
+<lable>V-IMAGE       :<br><input type="file" name="d" placeholder="ENTER CHASSIS NUMBER"  required/> </lable> <br>
+<lable>AADHAR NUMBER  :<br><input type="text" name="e" placeholder="ENTER AADHAR NUMBER" required /> </lable> <br>
+<br>
+<p><input type="submit" value="SUBMIT"/>  </p>
+
+</form>
+<p> <a href="license.html"><input type="submit" value="NEXT" > </a> </p>
+<center>
+<a href="profil.html"><font color="white">BACK</font></a> <br>  <br>
+</center>
+</div>
+
+
+</body>
+</html>
